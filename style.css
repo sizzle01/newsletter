@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-box i {
+    background: #2f3542;
+    width: 40px;
+    line-height: 40px;
+    color: white;
+    padding-left: 10px;
+}
+
+.tbox,
+.btn {
+    border: none;
+    outline: none;
+}
+
+.tbox {
+    width: 0px;
+    transition: 0.6s;
+}
+
+.email-box:hover>.tbox,
+.tbox:focus {
+    width: 250px;
+    padding: 0 10px;
+}
+
+.btn {
+    background: #2f3542;
+    color: white;
+    padding: 0 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
